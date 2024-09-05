@@ -1,0 +1,104 @@
+.rectangle-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.frame-child{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: 367px;
+    width: 368px;
+    background-color: #FAFAF9;
+  
+    border-radius: 15px;
+}
+
+.frame-child img{
+    margin-top: 20px;
+    width: 336px;
+    height: 156.33px;
+    top: 16px;
+    left: 16px;
+    border-radius: 16px;
+}
+
+.frame-inner{
+    position: absolute;
+    width: 57px;
+    height: 16px;
+    background-color:#E6D6FC ;
+    border-radius: 999px;
+    top:188px;
+    left: 16px;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 10.08px;
+    font-family: 'Sora';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.frame-inner p{
+    color: #883AE1;
+    margin:0;
+}
+
+.embracing-minimalism{
+    width: 217px;
+    height: 22px;
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+    font-family: 'Sora';
+    color: #20293A;
+}
+
+.from-minimalist-sculptures{
+    width: 310px;
+    height: 56px;
+    position: absolute;
+    top: 230px;
+    left: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17.5px;
+    font-family: 'Sora';
+    color: #6C727F;
+}
+
+.frame-item{
+    width: 367px;
+    height: 0px;
+    
+    
+}
+
+.line{
+    width: 367px;
+    height: 0px;
+    position: absolute;
+    top: 216px;
+}
+
+.annie-spratt{
+    width: 85px;
+    height: 15px;
+    position: absolute;
+    top: 317px;
+    left: 16px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    font-family: 'Sora';
+    color: #6C727F;
+}
